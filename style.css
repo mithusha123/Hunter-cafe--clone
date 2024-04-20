@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
+}
+.nav{
+    height: 80px;
+    width: 99%;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    text-decoration: none;
+}
+.info{
+    height: 30px;
+    width: 450px;
+    background-color:rgb(48, 27, 27);
+    position: relative;
+    left: 530px;
+    top: 0px;
+    text-decoration: none;
+    gap: 25;
+    padding-top: 5px;
+    box-shadow: 4px 6px 5px 6px ;
+    a{
+        margin: 10px;
+        /* text-decoration: none; */
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.4rem;
+        color: white;
+    }
+}
+.firstpage{
+    height: 550px;
+    width: 99%;
+    background-color: black;
+}
+.secondpage{
+    height: 500px;
+    width: 99%;
+    background-color: black;
+    /* background-image: url(diff.jpg) ; */
+    /* background-repeat: no-repeat; */
+    position: relative;
+    p{
+        color: white;
+        position: relative;
+        top: -250px;
+        left: 2px;
+        font-family: cursive;
+    }
+
+}
+.diffre{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 90px;
+    left: 600px;
+}
+.menu{
+    height: 150px;
+    width: 150px;
+    background-color: whitesmoke;
+    gap: 50px;
+    position: relative;
+    display: flex;
+}
+.first{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+.thirdpage{
+    height:600px ;
+    width: 99%;
+    background-color: black;
+    display: flex;
+    gap: 30px;
+}
+.cadone{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    border-radius: 10%;
+    .onei{
+        height: 130px;
+        width: 130px;
+        position: relative;
+        top: 6px;
+        left: 3px;
+    }
+    .butone{
+        position: relative;
+        top: 2px;
+        left: 20px;
+        height: 20px;
+        width: 100px;
+    }
+    .heado{
+        color: brown;
+        position: relative;
+        top: 1px;
+        left: 30px;
+    }
+}
+.cadone:hover{
+    height: 210px;
+    width: 160px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+  
+
+}
+.cadtwo{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 40px;
+    left: 250px;
+    border-radius: 10%;
+    .twoi{
+        height: 120px;
+        width: 120px;
+        position: relative;
+        top: 6px;
+        left: 4px;
+    }
+    .buttwo{
+        position: relative;
+        top: 2px;
+        left: 20px;
+        height: 20px;
+        width: 100px;
+    }
+    .headt{
+        color: brown;
+        position: relative;
+        top: 1px;
+        left: 30px;
+    }
+}
+.cadtwo:hover{
+    height: 210px;
+    width: 160px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+
+}
+.cadthree{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    border-radius: 10%;
+    .threei{
+        height: 120px;
+        width: 120px;
+        position: relative;
+        top: 6px;
+        left: 3px;
+    }
+    .butthree{
+        position: relative;
+        top: 2px;
+        left: 20px;
+        height: 20px;
+        width: 100px;
+    }
+    .headtt{
+        color: brown;
+        position: relative;
+        top: 1px;
+        left: 30px;
+    }
+}
+.cadthree:hover{
+    height: 210px;
+    width: 160px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+
+}
+.cadfour{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 40px;
+    left: 420px;
+    border-radius: 10%;
+    .fouri{
+        height: 120px;
+        width: 120px;
+        position: relative;
+        top: 6px;
+        left: 3px;
+    }
+    .butfour{
+        position: relative;
+        top: 2px;
+        left: 20px;
+        height: 20px;
+        width: 100px;
+    }
+    .headf{
+        color: brown;
+        position: relative;
+        top: 1px;
+        left: 17px;
+    }
+}
+.cadfour:hover{
+    height: 210px;
+    width: 160px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+
+}
+.cadfive{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 280px;
+    left: -487px;
+    border-radius: 10%;
+    .fivei{
+        height: 110px;
+        width: 110px;
+        position: relative;
+        top: 2px;
+        left: 6px;
+    }
+    .butfive{
+        position: relative;
+        top: 2px;
+        left: 6px;
+        height: 20px;
+        width: 100px;
+    }
+    .headfi{
+        color: brown;
+        position: relative;
+        top: 1px;
+        left: 20px;
+    }
+}
+.cadfive:hover{
+    height: 210px;
+    width: 160px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+  
+
+}
+.cadsix{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 269px;
+    left: -390px;
+    border-radius: 10%;
+    /* display: flex; */
+    .sixi{
+        height: 120px;
+        width: 120px;
+        position: relative;
+        top: 6px;
+        left: 3px;
+    }
+    .butsix{
+        position: relative;
+        top: 2px;
+        left: 6px;
+        height: 20px;
+        width: 100px;
+    }
+    .heads{
+        color: brown;
+        position: relative;
+        top: 1px;
+        left: 30px;
+    }
+}
+.cadsix:hover{
+    height: 210px;
+    width: 160px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+  
+
+}
+
+.cadseven{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 276px;
+    left: -289px;
+    border-radius: 10%;
+    .seveni{
+        height: 130px;
+        width: 110px;
+        position: relative;
+        top: 2px;
+        left: 10px;
+    }
+    .butseven{
+        position: relative;
+        top: 2px;
+        left: 20px;
+        height: 20px;
+        width: 100px;
+    }
+    .headse{
+        color: brown;
+        position: relative;
+        top: 1px;
+        left: 20px;
+    }
+}
+.cadseven:hover{
+    height: 210px;
+    width: 160px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+}
+.cadeight{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 276px;
+    left: -220px;
+    border-radius: 10%;
+    .eighti{
+        height: 110px;
+        width: 110px;
+        position: relative;
+        top: 5px;
+        left: 7px;
+    }
+    .buteight{
+        position: relative;
+        top: 2px;
+        left: 20px;
+        height: 20px;
+        width: 100px;
+    }
+    .heade{
+        color: brown;
+        position: relative;
+        top: 1px;
+        left: 20px;
+    }
+}
+.cadeight:hover{
+    height: 210px;
+    width: 160px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+}
+.fourthpage{
+    height: 300px;
+    width: 99%;
+    background-color: black;
+    position: relative;
+    /* top: 0; */
+    /* left: 300px; */
+}
+.off{
+    height: 200px;
+    width: 600px;
+    position: relative;
+    top: 0;
+    left: 300px;
+
+}
+.fifthpage{
+    height: 200px;
+    width: 99%;
+    background-color: black;
+}
+.footer{
+    height: 200px;
+    width: 99%;
+    background-color: black;
+    .menubar ul{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-left: 120px;
+        padding-top: 50px;
+        gap: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
